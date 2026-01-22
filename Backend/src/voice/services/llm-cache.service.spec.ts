@@ -6,6 +6,7 @@ describe('LlmCacheService', () => {
   let service: LlmCacheService;
   let redisService: RedisService;
 
+  //mock Redis client methods
   const mockRedisClient = {
     get: jest.fn(),
     set: jest.fn(),
