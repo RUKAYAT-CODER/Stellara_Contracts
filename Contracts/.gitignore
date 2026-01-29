@@ -30,6 +30,7 @@ next-env.d.ts
 /target/
 **/target/
 Cargo.lock
+!Cargo.lock
 **/*.rs.bk
 *.pdb
 **/*.dSYM/
